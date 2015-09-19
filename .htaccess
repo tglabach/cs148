@@ -1,0 +1,7 @@
+AuthType WebAuth 
+
+require user tglabach 
+
+satisfy any 
+
+order allow,deny 
