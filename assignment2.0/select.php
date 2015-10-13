@@ -14,8 +14,8 @@ include "top.php";
     <li><a href="q06.php">Query #6:  </a>SELECT fldCourseName FROM tblCourses WHERE fldCourseName LIKE "%Data%" AND fldDepartment != "CS"</li>
     <li><a href="q07.php">Query #7:  </a>SELECT COUNT(DISTINCT fldDepartment) FROM tblCourses</li>
     <li><a href="q08.php">Query #8:  </a>SELECT  fldBuilding, count(*) as numberSections FROM tblSections GROUP BY fldBuilding</li>
-    <li><a href="q09.php">Query #9:  </a>SELECT fldBuilding, SUM(fldNumStudents) FROM tblSections WHERE fldDays LIKE '%W%' GROUP BY fldBuilding</li>
-    <li><a href="q10.php">Query #10:  </a>SELECT fldBuilding, SUM(fldNumStudents) FROM tblSections WHERE fldDays LIKE "%F%" GROUP BY fldBuilding</li>
+    <li><a href="q09.php">Query #9:  </a>SELECT fldBuilding, SUM(fldNumStudents) FROM tblSections WHERE fldDays LIKE '%W%' GROUP BY fldBuilding ORDER BY fldBuilding DESC</li>
+    <li><a href="q10.php">Query #10:  </a>SELECT fldBuilding, SUM(fldNumStudents) FROM tblSections WHERE fldDays LIKE "%F%" GROUP BY fldBuilding ORDER BY fldBuilding DESC</li>
     <li><a href="q11.php">Query #11:  </a>SELECT fnkCourseId FROM tblSections GROUP BY fnkCourseId HAVING COUNT(*) > 50;</li>
    
     

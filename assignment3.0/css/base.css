@@ -1,0 +1,58 @@
+/* 
+    Created on : Jun 10, 2015, 10:27:26 AM
+    Author     : Robert Erickson
+*/
+@import url('reset.css');
+/*------------------------   standard elements  ----------------------------- */
+body{
+    margin: auto;
+    background-color: #CDEDF6;
+}
+article{
+    padding: 2em;
+}
+
+section{
+    padding: 2em;
+    width: 40%;  
+}
+
+h1, h3{
+    text-align: center;
+}
+
+ol{
+    list-style-type: none;
+}
+a{
+    font-weight: bold;
+    color: #CC0099;
+    text-decoration: none;
+}
+
+
+/*------------------------   table           ------------------------------ */
+table{
+    text-align: center;
+    margin: auto;
+    border: .25em solid black;
+}
+
+td{
+    padding: 1em;
+    border: 1px solid black;
+}
+
+tr:nth-child(even){
+    background-color: #02A9EA;
+}
+
+tr:nth-child(odd){
+    background-color: #FF6B6B;
+}
+
+/******* footer *****/
+
+footer{
+    clear: both;
+}
